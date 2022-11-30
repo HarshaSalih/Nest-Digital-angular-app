@@ -12,7 +12,8 @@ import { FormsModule } from '@angular/forms';
 import { ViewCourseComponent } from './view-course/view-course.component';
 import { ViewFriendComponent } from './view-friend/view-friend.component';
 import { HttpClientModule } from '@angular/common/http';
-import { EmployeeloginComponent } from './employeelogin/employeelogin.component'
+import { EmployeeloginComponent } from './employeelogin/employeelogin.component';
+import { EmployeeregistrationComponent } from './employeeregistration/employeeregistration.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { EmployeeloginComponent } from './employeelogin/employeelogin.component'
     AdminloginComponent,
     ViewCourseComponent,
     ViewFriendComponent,
-    EmployeeloginComponent
+    EmployeeloginComponent,
+    EmployeeregistrationComponent
   ],
   imports: [
     BrowserModule,
