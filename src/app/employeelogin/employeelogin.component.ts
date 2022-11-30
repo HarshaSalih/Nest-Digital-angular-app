@@ -18,6 +18,13 @@ export class EmployeeloginComponent {
     }
     console.log(data)
 
+    if(this.employeeId=="1122" && this.password=="12345"){
+      alert("valid login")
+      
+    }else{
+      alert("invalid credentials")
+    }
+
     
   }
 
