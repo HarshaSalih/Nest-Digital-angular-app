@@ -17,6 +17,9 @@ import { EmployeeregistrationComponent } from './employeeregistration/employeere
 import { AddCourseComponent } from './add-course/add-course.component';
 import { AddFriendComponent } from './add-friend/add-friend.component'
 import { RouterModule, Routes } from '@angular/router';
+import { NavbarComponent } from './navbar/navbar.component';
+import { AddnavbarComponent } from './addnavbar/addnavbar.component';
+import { ViewnavbarComponent } from './viewnavbar/viewnavbar.component';
 
 const myRoute:Routes=[
   {
@@ -79,7 +82,10 @@ const myRoute:Routes=[
     EmployeeloginComponent,
     EmployeeregistrationComponent,
     AddCourseComponent,
-    AddFriendComponent
+    AddFriendComponent,
+    NavbarComponent,
+    AddnavbarComponent,
+    ViewnavbarComponent
   ],
   imports: [
     BrowserModule,
