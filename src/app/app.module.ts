@@ -10,6 +10,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { FormsModule } from '@angular/forms';
 import { ViewCourseComponent } from './view-course/view-course.component';
+import { ViewFriendComponent } from './view-friend/view-friend.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ViewCourseComponent } from './view-course/view-course.component';
     AboutusComponent,
     ContactusComponent,
     AdminloginComponent,
-    ViewCourseComponent
+    ViewCourseComponent,
+    ViewFriendComponent
   ],
   imports: [
     BrowserModule,
