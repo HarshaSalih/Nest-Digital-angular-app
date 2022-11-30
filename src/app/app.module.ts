@@ -14,7 +14,8 @@ import { ViewFriendComponent } from './view-friend/view-friend.component';
 import { HttpClientModule } from '@angular/common/http';
 import { EmployeeloginComponent } from './employeelogin/employeelogin.component';
 import { EmployeeregistrationComponent } from './employeeregistration/employeeregistration.component';
-import { AddCourseComponent } from './add-course/add-course.component'
+import { AddCourseComponent } from './add-course/add-course.component';
+import { AddFriendComponent } from './add-friend/add-friend.component'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { AddCourseComponent } from './add-course/add-course.component'
     ViewFriendComponent,
     EmployeeloginComponent,
     EmployeeregistrationComponent,
-    AddCourseComponent
+    AddCourseComponent,
+    AddFriendComponent
   ],
   imports: [
     BrowserModule,
