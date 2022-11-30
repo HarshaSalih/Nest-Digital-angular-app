@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-employeelogin',
@@ -10,6 +11,8 @@ export class EmployeeloginComponent {
   employeeId=""
   password=""
 
+  constructor(private route:Router){}
+
 
   readValues=()=>
   {
@@ -19,7 +22,8 @@ export class EmployeeloginComponent {
     console.log(data)
 
     if(this.employeeId=="1122" && this.password=="12345"){
-      alert("valid login")
+      // alert("valid login")
+      this.route.navigate(['addcourse'])
       
     }else{
       alert("invalid credentials")
