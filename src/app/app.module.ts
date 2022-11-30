@@ -9,6 +9,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { FormsModule } from '@angular/forms';
+import { ViewCourseComponent } from './view-course/view-course.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms';
     GalleryComponent,
     AboutusComponent,
     ContactusComponent,
-    AdminloginComponent
+    AdminloginComponent,
+    ViewCourseComponent
   ],
   imports: [
     BrowserModule,
