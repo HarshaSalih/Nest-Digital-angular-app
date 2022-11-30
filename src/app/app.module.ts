@@ -16,6 +16,55 @@ import { EmployeeloginComponent } from './employeelogin/employeelogin.component'
 import { EmployeeregistrationComponent } from './employeeregistration/employeeregistration.component';
 import { AddCourseComponent } from './add-course/add-course.component';
 import { AddFriendComponent } from './add-friend/add-friend.component'
+import { RouterModule, Routes } from '@angular/router';
+
+const myRoute:Routes=[
+  {
+    path:"",
+    component:HomeComponent
+  },
+  {
+    path:"gallery",
+    component:GalleryComponent
+  },
+  {
+    path:"about",
+    component:AboutusComponent
+  },
+  {
+    path:"contact",
+    component:ContactusComponent
+  },
+  {
+    path:"adminlogin",
+    component:AdminloginComponent
+  },
+  {
+    path:"viewallcourses",
+    component:ViewCourseComponent
+  },
+  {
+    path:"viewallfriends",
+    component:ViewFriendComponent
+  },
+  {
+    path:"employeelogin",
+    component:EmployeeloginComponent
+  },
+  {
+    path:"employeeregistration",
+    component:EmployeeregistrationComponent
+  },
+  {
+    path:"addcourse",
+    component:AddCourseComponent
+  },
+  {
+    path:"addfriend",
+    component:AddFriendComponent
+  }
+]
+
 
 @NgModule({
   declarations: [
@@ -36,7 +85,8 @@ import { AddFriendComponent } from './add-friend/add-friend.component'
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule.forRoot(myRoute)
   ],
   providers: [],
   bootstrap: [AppComponent]
