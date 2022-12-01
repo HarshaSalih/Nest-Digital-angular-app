@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class ContactusComponent {
 
+  name=""
+  companyName=""
+  designation=""
+  phone=""
+  email=""
+  subject=""
+
+  readValues=()=>
+  {
+    let data:any={"name":this.name,"companyName":this.companyName,"designation":this.designation,"phone":this.phone,"email":this.email,"subject":this.subject}
+    console.log(data)
+  }
+
 }
